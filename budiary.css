@@ -1,0 +1,41 @@
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center; /* Center align text */
+}
+
+.main {
+  padding: 2rem;
+}
+
+.gallery-section {
+  margin-bottom: 3rem;
+  text-align: center; /* Center align section titles */
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+img,
+video {
+  width: 100%; /* Adjust width for full-width responsiveness */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
